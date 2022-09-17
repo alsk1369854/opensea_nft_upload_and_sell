@@ -50,6 +50,6 @@ Step2: 執行 Main.py
 ```buildoutcfg
 # 斷線了會自動記錄，下次開啟直接執行 Main.py 即可繼續執行販售
 # 販售完成的圖片會轉至 /Sell_images/Sell_Finish 文件夾
-Step1: 將要販售的.png圖片放入 /Sell_images/Waiting_Sell 文件夾中，
+Step1: 將要販售的.png圖片放入 /Sell_images/Waiting_Sell 文件夾中
 Step2: 執行 Main.py 
 ```
