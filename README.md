@@ -39,7 +39,8 @@ IMAGES_DESCRIPTION = ''
 ### 上傳 /Application/Upload_Item
 ```buildoutcfg
 # 斷線了會自動記錄，下次開啟直接執行 Main.py 即可繼續執行上傳
-Step1: 將要上傳的.png圖片放入 /Upload_image/Wait 文件夾中，上傳完成的圖片會轉至 /Upload_image/Uploaded 文件夾
+# 上傳完成的圖片會轉至 /Upload_image/Uploaded 文件夾
+Step1: 將要上傳的.png圖片放入 /Upload_image/Wait 文件夾中
 Step2: 執行 Main.py 
 ```
 <br/>
@@ -48,6 +49,7 @@ Step2: 執行 Main.py
 #### !!!要販售的圖片必須已完成上傳!!!
 ```buildoutcfg
 # 斷線了會自動記錄，下次開啟直接執行 Main.py 即可繼續執行販售
-Step1: 將要販售的.png圖片放入 /Sell_images/Waiting_Sell 文件夾中，販售完成的圖片會轉至 /Sell_images/Sell_Finish 文件夾
+# 販售完成的圖片會轉至 /Sell_images/Sell_Finish 文件夾
+Step1: 將要販售的.png圖片放入 /Sell_images/Waiting_Sell 文件夾中，
 Step2: 執行 Main.py 
 ```
